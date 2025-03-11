@@ -114,7 +114,7 @@ export function Chatroom(room,username){
                 console.error("Error deleteing message : ",error);
             }
 
-        },5000);
+        },15000);
     }
     deleteAllMessage()
 
