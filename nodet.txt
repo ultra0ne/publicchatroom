@@ -145,3 +145,20 @@ import express form 'express';
 git-mote add origin remote arigin git@github.com:ultra0ne/publicchatroom.git
 
 2. https://render.com/
+
+3.Prepare the build output 
+your project must builded and typically located in the "dist"directory
+
+4. Create a new static site 
+click > "New + " > Static site  > Github > choose repo > click connect 
+
+5 Name : publicchatroom
+  Branch : main 
+  Build command : npm run build  (react , vue , vite , etc ...), ng build (Angular)
+
+  public directory : dist
+  start command : node server.js
+
+
+
+6.Enviroment Variables = Copy paste .env data to Enviroment variables 
