@@ -25,6 +25,9 @@ const registerUser = async(fullname,email,password)=>{
 
             }).then(()=>{
 
+                // set name to localStorage
+             setLocalName(fullname);
+
                  //Redirect to index.html
             window.location.href = "../index.html"
 
